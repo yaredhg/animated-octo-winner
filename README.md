@@ -1,5 +1,4 @@
-# animated-octo-winner
-Expression calculator
+# Expression calculator
 This is a command line program that will take operations on fractions as an input and produce a fractional result.
 
 Legal operators shall be *, /, +, - (multiply, divide, add, subtract)
@@ -22,6 +21,6 @@ Usage Info
 - Download the release1.0 folder 
 - Run ArtimeticExpressionCaclulator.exe   -see image below
 
-![Expression-calc](ExpressionCalculator.png)
+![Expression-calc](https://github.com/yaredhg/animated-octo-winner/blob/master/ExpressionCalculator.PNG)
 
 
