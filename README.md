@@ -20,5 +20,8 @@ Example run:
 
 Usage Info
 - Download the release1.0 folder 
-- Run ArtimeticExpressionCaclulator.exe 
+- Run ArtimeticExpressionCaclulator.exe   -see image below
+
+![Expression-calc](ExpressionCalculator.png)
+
 
