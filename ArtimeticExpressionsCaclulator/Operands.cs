@@ -27,11 +27,19 @@ namespace ArtimeticExpressionCaclulator
                 {
                     if(values.Length == 2)
                     {
+                        if(fraction2 == 0.0)
+                        {
+                            throw new ArgumentException("Division by zero");
+                        }
                         return fraction1 / fraction2;
                     }
                     
                     if (double.TryParse(values[2], out double fraction3))
                     {
+                        if (fraction3 == 0.0)
+                        {
+                            throw new ArgumentException("Division by zero");
+                        }
                         return fraction1 + fraction2 / fraction3;
                     }
                 }     

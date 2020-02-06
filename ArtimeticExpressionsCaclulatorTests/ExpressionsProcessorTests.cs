@@ -50,6 +50,14 @@ namespace ArtimeticExpressionsCaclulatorTests
             Assert.Throws<ArgumentException>(() => processor.Process(input));
 
         }
+
+        [Fact]
+        public void In_ValidInput_Division_by_zero()
+        {
+            var input = "2_3/8 + 9/0";
+            Assert.Throws<ArgumentException>(() => processor.Process(input));
+
+        }
         [Fact]
         public void InValidInput_Empty()
         {
