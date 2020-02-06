@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs
+/ArtimeticExpressionsCaclulator/.vs/ArtimeticExpressionCaclulator/v16
+/ArtimeticExpressionsCaclulator/bin/Release/netcoreapp3.1
+/ArtimeticExpressionsCaclulator/obj
